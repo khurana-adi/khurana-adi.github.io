@@ -9,11 +9,11 @@ h1 {
     font-size: 40px;
     text-align: center;
     top: 3px;
-    border: 25px;
-    border-color: aqua;
     white-space: nowrap;
     color: white;
+    -webkit-text-stroke: 0px burlywood;
     justify-content: center;
+    
 }
 
 h2 {
@@ -22,8 +22,6 @@ h2 {
     font-size: 25px;
     white-space: nowrap;
     color: white;
-    outline: 20px;
-    outline-color: burlywood;
     text-align: center;
     position: relative;
     justify-content: center;
@@ -231,7 +229,7 @@ h6 {
 }
 
 .yzy750 img {
-    height: 145px;
+    height: 135px;
     width: 245px;
     position: absolute;
     left: 485px;
