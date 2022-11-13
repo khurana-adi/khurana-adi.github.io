@@ -92,10 +92,10 @@ h2 {
 .content h2 {
     color: #fff;
     font-size: 8em;
-    position: fixed;
+    position: absolute;
     white-space: nowrap;
     left: 55%;
-    top: -25px;
+    top: -150px;
     transform: translate(-50%, -50%);
 }
 
