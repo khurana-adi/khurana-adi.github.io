@@ -1,0 +1,337 @@
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    top: 3px;
+    white-space: nowrap;
+    color: white;
+    justify-content: center;
+}
+
+h2 {
+    font-family: monospace;
+    font-display: bolder;
+    font-size: 25px;
+    white-space: nowrap;
+    color: white;
+    text-align: center;
+    position:relative;
+    justify-content: center;
+    top: -25px;
+}
+
+footer {
+    font-family: cursive;
+    color: white;
+    position:relative;
+    top:510px;
+    white-space: nowrap
+}
+
+.footer2 {
+    color: white;
+    font-family: cursive;
+    left:1300px;
+    top:-30px;
+    position:relative;
+    
+}
+
+
+.box {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    padding: 75px;
+    position: absolute;
+    left: 75px;
+    top: 100px;
+    margin: 25px;
+}
+
+
+
+.second {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    padding: 75px;
+    position: absolute;
+    left: 75px;
+    top: 400px;
+    margin: 25px;
+}
+
+
+.third {
+    background-color: rgb(169, 169, 169);
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    padding: 75px;
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    margin: 25px;
+}
+
+.fourth {
+
+    background-color: rgb(139, 69, 19);
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    padding: 75px;
+    position: absolute;
+    left: 450px;
+    top: 400px;
+    margin: 25px;
+}
+
+
+.fifth {
+    background-color: rgb(67, 133, 225);
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    padding: 75px;
+    position: absolute;
+    left: 800px;
+    top: 100px;
+    margin: 25px;
+}
+
+.sixth {
+    background-color: rgb(225, 60, 60);
+    width: 100px;
+    height: 100px;
+    border: 10px solid white;
+    padding: 75px;
+    position: absolute;
+    left: 800px;
+    top: 400px;
+    margin: 25px;
+}
+
+.seven {
+    background-image: repeating-conic-gradient(orange 10%, yellow 20%);
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    position:absolute;
+    right:50px;
+    top:25px;
+    border-color: azure;
+    padding:75px
+
+}
+
+.eight {
+    background-image: repeating-conic-gradient(#ADD8E6 10%, hotpink 20%);
+    border-radius: 50%;
+    width:100px;
+    height:100px;
+    position:absolute;
+    right:50px;
+    bottom:50px;
+    border-color: azure;
+    padding:75px
+
+}
+
+
+.jackie img {
+    height: 145px;
+    width: 235px;
+    position: absolute;
+    left: 115px;
+    top: 230px;
+}
+
+.jackie img:hover {
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    left: 225px;
+    top: 130px;
+    z-index: 100;
+}
+
+h6 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 130px;
+    top: 125px;
+    width: max-content;
+    font-family: monospace;
+}
+
+.patrick img {
+    height: 145px;
+    width: 225px;
+    position: absolute;
+    left: 120px;
+    top: 530px;
+}
+
+.patrick img:hover {
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    left: 225px;
+    top: 130px;
+    z-index: 100;
+}
+
+.patrick h6 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 140px;
+    top: 425px;
+    text-align:justify;
+    width: max-content;
+    font-family: monospace;
+}
+
+.turtledove img {
+    height: 145px;
+    width: 235px;
+    position: absolute;
+    left: 490px;
+    top: 230px;
+}
+
+.turtledove img:hover {
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    left: 225px;
+    top: 130px;
+    z-index: 100;
+}
+
+.turtledove h6 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 520px;
+    top: 125px;
+    width: max-content;
+    font-family: monospace;
+}
+
+.yzy750 img {
+    height: 145px;
+    width: 245px;
+    position: absolute;
+    left: 485px;
+    top: 540px;
+}
+
+.yzy750 img:hover {
+    height: 500px;
+    width: 825px;
+    position: absolute;
+    left: 225px;
+    top: 130px;
+    z-index: 100;
+}
+
+.yzy750 h6 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 520px;
+    top: 425px;
+    width: max-content;
+    font-family: monospace;
+}
+
+
+.hyper img {
+    height: 145px;
+    width: 215px;
+    position: absolute;
+    left: 850px;
+    top: 230px;
+}
+
+.hyper img:hover {
+    height: 500px;
+    width: 750px;
+    position: absolute;
+    left: 215px;
+    top: 130px;
+    z-index: 100;
+}
+
+.hyper h6 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 850px;
+    top: 125px;
+    width: max-content;
+    font-family: monospace;
+}
+
+.ow1 img {
+    height: 145px;
+    width: 225px;
+    position: absolute;
+    left: 850px;
+    top: 530px;
+}
+
+.ow1 img:hover {
+    height: 500px;
+    width: 800px;
+    position: absolute;
+    left: 215px;
+    top: 130px;
+    z-index: 100;
+}
+
+.ow1 h6 {
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    left: 860px;
+    top: 425px;
+    width: max-content;
+    font-family: monospace;
+}
+
+h5 {
+    font-family: monospace;
+    color: white;
+    font-weight: 5px;
+    font-size: 15px;
+    position:relative;
+    left:50px;
+    top:-130px;
+}
+
+a:link {
+    color: white;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: red;
+  }
