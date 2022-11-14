@@ -18,11 +18,11 @@ h2 {
     color: white;
     font-size: 25px;
     font-family: monospace;
-    text-align: center;
     width: 750px;
     position: absolute;
     top: 100px;
-    left: 400px;
+    text-align:center;
+    left:325px;
     font-weight: 500;
 }
 
@@ -94,7 +94,7 @@ h2 {
     font-size: 8em;
     position: absolute;
     white-space: nowrap;
-    left: 55%;
+    left: 52.5%;
     top: -150px;
     transform: translate(-50%, -50%);
 }
