@@ -1,17 +1,18 @@
 body {
     background-color: black;
+    max-width: fit-content;
 }
 
 h1 {
     font-family: monospace;
     font-weight: bolder;
     font-size: 40px;
-    text-align: center;
+    left:125%;
     top: 3px;
     white-space: nowrap;
     color: white;
     -webkit-text-stroke: 0px burlywood;
-    justify-content: center;
+    position:relative;
 
 }
 
@@ -21,10 +22,9 @@ h2 {
     font-size: 25px;
     white-space: nowrap;
     color: white;
-    text-align: center;
+    left:125%;
     position: relative;
-    justify-content: center;
-    top: -25px;
+    top: -15px;
 }
 
 footer {
@@ -315,8 +315,13 @@ h5 {
     font-weight: 5px;
     font-size: 15px;
     position: relative;
+    width:250%;
     left: 50px;
     top: -130px;
+}
+
+h5 a {
+    color:white;
 }
 
 a:link {
@@ -350,13 +355,13 @@ a:active {
     width: 30%;
     position: absolute;
     top: 7.5%;
-    left: 85%;
+    left: 95%;
     transform: translate(-50%, -50%);
 }
 
 .searchbutton {
     position: absolute;
-    left: 91.5%;
+    left: 101.5%;
     top: 3.5%;
 
 }

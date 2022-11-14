@@ -26,6 +26,20 @@ h2 {
     font-weight: 500;
 }
 
+h5 {
+    font-family: monospace;
+    color: white;
+    font-weight: 5px;
+    font-size: 15px;
+    position: relative;
+    left: 50px;
+    top: -110px;
+}
+
+h5 a {
+    color: white;
+}
+
 .pfp img {
     height: 200px;
     width: 150px;
@@ -138,3 +152,17 @@ h2 {
 }
 
 /*https://www.b3multimedia.ie/beautiful-color-gradients-for-your-next-design-project*/
+
+a:link {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
