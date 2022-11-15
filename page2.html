@@ -45,6 +45,20 @@
         <a href="page2.html">About Me</a>
     </h5>
 
+    <button type="button" onclick="rndCol()">Click for a surprise!</button>
+    <script>
+        const btn = document.querySelector('button');
+
+        function random(number) {
+            return Math.floor(Math.random() * (number + 1));
+        }
+
+        btn.onclick = function () {
+            const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+            document.body.style.backgroundColor = rndCol;
+        }
+    </script>
+
 
 </body>
 
