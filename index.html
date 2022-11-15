@@ -10,6 +10,9 @@
 
 <link rel="stylesheet" href="site.css">
 
+<script type="text/javascript" src="site.js"></script>
+
+
 <body>
     <h1>Some Cool Shoes!</h1>
     <h2>What would you rate them? &#129300</h2>
@@ -119,7 +122,19 @@
         <h2> Learn about upcoming drops.</h2>
     </div>
 
+    <button type="button" onclick="rndCol()">Click for a surprise!</button>
+    <script>
+   const btn = document.querySelector('button');
 
+function random(number) {
+  return Math.floor(Math.random() * (number+1));
+}
+
+btn.onclick = function() {
+  const rndCol = 'rgb(' + random(255) + ',' + random(255) + ',' + random(255) + ')';
+  document.body.style.backgroundColor = rndCol;
+}
+    </script>
 
 
 </body>
