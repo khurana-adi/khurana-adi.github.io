@@ -354,15 +354,15 @@ a:active {
 .wrap {
     width: 30%;
     position: absolute;
-    top: 7.5%;
-    left: 85%;
+    top: 60px;
+    left: 1255px;
     transform: translate(-50%, -50%);
 }
 
 .searchbutton {
     position: absolute;
-    left: 91.5%;
-    top: 3.5%;
+    left: 1340px;
+    top: 30px;
 
 }
 
